@@ -8,17 +8,18 @@ html {
 
 body { 
 	width: 80%;
-	margin: 0 auto;
+	margin: 10 auto;
 	font-family: serif;
 	font-size: 12px;
 }
 
 button {
-	// background-color:
+	background-color: rgb(58, 97, 175);
 	border-color: darkblue;
-	color: rgb(74, 74, 172);
-	// font-weight:
-	// padding:
+	color: white;
+	font-weight: 800;
+	padding: 10px;
+	margin: 5px;
 	// border-radius:
 	// transition:
 	// font-family:
@@ -28,7 +29,7 @@ button {
 }
 
 button:hover {
-	// background-color:
+	background-color: lightgray;
 	// border-color:
 }
 

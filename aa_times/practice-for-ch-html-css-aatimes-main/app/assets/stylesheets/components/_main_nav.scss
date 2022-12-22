@@ -1,19 +1,37 @@
 @use '../variables' as *;
 
 .main-nav {
-  
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  background-color: aquamarine;
 }
 
 .left-nav > ul,
 .right-nav > ul {
-  
+  display: flex;
+  align-items: center;
 }
+
+// .middle-nav {
+//   > ul {
+//     > li {
+//       display: flex;
+//       flex-direction: row;
+//     }
+//   }
+// }
+
 
 .left-nav {
 
   > ul {
     > li {
-      
+      margin: 10px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: bolder;
     }
   }
 
@@ -25,7 +43,7 @@
 .right-nav  {
   > ul {
     > li {
-      
+
     }
 
     > li:last-of-type {
@@ -40,7 +58,7 @@
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-  
+  background-color: $lightest-gray;
 }
 
     
