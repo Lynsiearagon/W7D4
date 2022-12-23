@@ -6,6 +6,7 @@
 	align-items: center;
 	border-bottom: 2px solid black;
 	position: relative;
+	
 }
 
 .language-nav {
@@ -45,7 +46,7 @@
 
 	li {
 		margin-left: 10px;
-		border-right: 1px solid $light-gray;
+		// border-right: 1px solid $light-gray;
 	}
 
 	button {

@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   padding: 5px;
-  background-color: aquamarine;
+  
 }
 
 .left-nav > ul,
@@ -61,4 +61,7 @@
   background-color: $lightest-gray;
 }
 
+i {
+  font-size: 20px;
+}
     
